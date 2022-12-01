@@ -7,5 +7,5 @@ This year I'm using Go again, but with a Nix flair. I've set up a nix devshell u
 To set up a shell to be used for this environment, from run:
 
 ``` bash
-$ nix develop
+$ nix develop -c $SHELL
 ```
